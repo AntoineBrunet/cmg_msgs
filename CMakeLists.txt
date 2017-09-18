@@ -4,8 +4,9 @@ project(cmg_msgs)
 find_package(catkin REQUIRED genmsg std_msgs)
 
 add_message_files(FILES
-		  FlywheelSpeed.msg
-		  FlywheelSpeeds.msg
+		  Speed.msg
+		  SpeedList.msg
+		  GimbalTarget.msg
                  )
 
 generate_messages(DEPENDENCIES std_msgs)
