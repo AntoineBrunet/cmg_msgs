@@ -7,6 +7,8 @@ add_message_files(FILES
 		  Speed.msg
 		  SpeedList.msg
 		  GimbalTarget.msg
+                  Commande.msg
+                  Commande_moteur.msg
                  )
 
 generate_messages(DEPENDENCIES std_msgs)
