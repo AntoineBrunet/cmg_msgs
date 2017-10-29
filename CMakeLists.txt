@@ -4,6 +4,8 @@ project(cmg_msgs)
 find_package(catkin REQUIRED genmsg std_msgs)
 
 add_message_files(FILES
+		  State.msg
+		  Signal.msg
 		  Speed.msg
 		  SpeedList.msg
 		  GimbalTarget.msg
