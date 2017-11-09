@@ -3,4 +3,7 @@ float64[3] kv
 float64[3] a
 float64[3] b
 geometry_msgs/Quaternion qd
-bool object_tracking
+int64 object_tracking
+float64 ht
+bool[6] panne
+float64[6] pos_init
