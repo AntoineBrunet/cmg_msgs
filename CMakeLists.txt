@@ -9,6 +9,7 @@ add_message_files(FILES
 		  Speed.msg
 		  SpeedList.msg
 		  Guidage.msg
+		  AGConfig.msg
 		  GimbalTarget.msg
                   Commande.msg
                   Commande_moteur.msg
