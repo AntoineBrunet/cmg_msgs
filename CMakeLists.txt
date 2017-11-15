@@ -10,6 +10,8 @@ add_message_files(FILES
 		  SpeedList.msg
 		  Guidage.msg
 		  AGConfig.msg
+		  DynamixelState.msg
+		  DynamixelStateList.msg
 		  GimbalTarget.msg
                   Commande.msg
                   Commande_moteur.msg

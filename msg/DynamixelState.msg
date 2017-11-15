@@ -1,0 +1,7 @@
+uint32 present_temperature
+
+float64 present_position
+float64 present_velocity
+
+float64 goal_position
+float64 goal_velocity
